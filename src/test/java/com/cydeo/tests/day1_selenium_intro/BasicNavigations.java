@@ -70,9 +70,11 @@ public class BasicNavigations {
         System.out.println("currentURL = " + currentURL);
 
 
-        //----------------------------------------------------------------
+        //this will close the currently opened window
+        driver.close();
 
-
+        // this will close all of the open windows. (kills the current session)
+        driver.quit();
 
 
 
