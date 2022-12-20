@@ -15,12 +15,24 @@ public class BasicNavigations {
         //This the line opening an empty browser
         WebDriver driver = new ChromeDriver();
 
+        // This line will maximize the browser size
+        driver.manage().window().maximize();
+
+       // driver.manage().window().fullscreen(); - (sometime doesn't work for windows)
+
         //3- Go to "https://www.tesla.com"
         driver.get("https://www.tesla.com");
+
+        //-------------------------------------------------------------
+
+        String currentTitle= driver.getTitle();
+        System.out.println("driver.getTitle() = " + driver.getTitle());
 
         //Get the current URL using selenium
         String currentURL = driver.getCurrentUrl();
         System.out.println("currentURL = " + currentURL);
+
+        //---------------------------------------------------------------
 
         //stop the code execution for 3 seconds
         Thread.sleep(3000);
@@ -46,18 +58,26 @@ public class BasicNavigations {
         // use navigate().to()  method
         driver.navigate().to("https://www.google.com");
 
+        //----------------------------------------------------------------
+
+
         //get the title of the page
+       currentTitle= driver.getTitle();
         System.out.println("driver.getTitle() = " + driver.getTitle());
-        String currentTitle= driver.getTitle();
 
         //Get the current URL using selenium
         currentURL = driver.getCurrentUrl();
         System.out.println("currentURL = " + currentURL);
 
 
+        //----------------------------------------------------------------
+
+
+
+
+
+
     }
-
-
 
 
 }
