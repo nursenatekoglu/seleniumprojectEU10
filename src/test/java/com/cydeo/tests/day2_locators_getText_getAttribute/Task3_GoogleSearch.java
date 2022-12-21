@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Task3_NameLocatorPractice_GoogleSearch {
+public class Task3_GoogleSearch {
     public static void main(String[] args) {
 
         // TC#3: Google search
