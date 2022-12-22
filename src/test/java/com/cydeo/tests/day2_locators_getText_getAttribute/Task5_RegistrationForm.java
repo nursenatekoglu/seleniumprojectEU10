@@ -39,7 +39,13 @@ public class Task5_RegistrationForm {
             String expectedPlaceHolder = "first name";
             String actualPlaceHolder = firstNameInput.getAttribute("placeholder");
 
+        if (actualPlaceHolder.equals(expectedPlaceHolder)){
+            System.out.println("Placeholder text verification PASSED ");
+        } else {
+            System.out.println("Placeholder text verification FAILED ");
+        }
 
+        driver.close();
 
     }
 }
