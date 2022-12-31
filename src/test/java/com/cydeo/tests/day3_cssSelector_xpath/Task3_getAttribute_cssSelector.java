@@ -20,6 +20,10 @@ public class Task3_getAttribute_cssSelector {
 
         //3- Verify “Log in” button text is as expected:
         //Expected: Log In
+        //PS: Inspect and decide which locator you should be using to locate web
+        //elements.
+        //PS2: Pay attention to where to get the text of this button from
+
 
         //WebElement signInButton = driver.findElement(By.className("login-btn"));
 
@@ -33,9 +37,6 @@ public class Task3_getAttribute_cssSelector {
         // LOCATED USING VALUE ATTRIBUTE
         WebElement signInButton = driver.findElement(By.cssSelector("input[value='Log In']"));
 
-    //PS: Inspect and decide which locator you should be using to locate web
-    //elements.
-    //PS2: Pay attention to where to get the text of this button from
 
         String expectedButtonText = "Log In";
 
