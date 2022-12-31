@@ -45,9 +45,9 @@ public class Task3_getAttribute_cssSelector {
         System.out.println("actualButtonText = " + actualButtonText);
 
         if (actualButtonText.equals(expectedButtonText)){
-            System.out.println("Log In button text verification passed!");
+            System.out.println("Log In button text verification PASSED");
         }else{
-            System.out.println("Log In button text verification failed!");
+            System.out.println("Log In button text verification FAILED");
         }
 
 
