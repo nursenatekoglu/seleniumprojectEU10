@@ -41,5 +41,20 @@ public class Task5_checkboxes {
         System.out.println("checkbox2.isSelected(),expecting false = " + checkbox2.isSelected());
 
 
+//        if(checkbox1.isSelected()){
+//            System.out.println("verification passed");
+//        }else{
+//            System.out.println("verification fail");
+//        }
+
+
+//        if(!checkbox2.isSelected()){
+//            System.out.println("verification passed");
+//        }else{
+//            System.out.println("verification fail");
+//        }
+
+
+
     }
 }
