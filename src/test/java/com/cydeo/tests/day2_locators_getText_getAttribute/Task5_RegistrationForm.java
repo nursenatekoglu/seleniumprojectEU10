@@ -45,7 +45,9 @@ public class Task5_RegistrationForm {
             System.out.println("Placeholder text verification FAILED ");
         }
 
+
         driver.close();
+
 
     }
 }
