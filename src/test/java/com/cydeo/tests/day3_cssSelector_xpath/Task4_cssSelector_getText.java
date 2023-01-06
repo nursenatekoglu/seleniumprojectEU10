@@ -35,6 +35,7 @@ public class Task4_cssSelector_getText {
         String expectedResetPasswordButtonText = "Reset password";
         String actualResetPasswordButtonText = resetPasswordButton.getText();
 
+
         if (actualResetPasswordButtonText.equals(expectedResetPasswordButtonText)){
             System.out.println("Button text verification PASSED");
         }else{
