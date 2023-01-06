@@ -45,9 +45,5 @@ public class Task6_StaleElementReferenceException {
 
 
 
-
-
-
-
     }
 }
