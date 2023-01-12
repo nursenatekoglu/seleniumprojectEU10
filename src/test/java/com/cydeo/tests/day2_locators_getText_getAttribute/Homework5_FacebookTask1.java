@@ -4,7 +4,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Homework_FacebookTask1 {
+public class Homework5_FacebookTask1 {
 
     public static void main(String[] args) {
 

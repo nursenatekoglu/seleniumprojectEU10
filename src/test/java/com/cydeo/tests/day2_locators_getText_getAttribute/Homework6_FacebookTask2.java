@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Homework_FacebookTask2 {
+public class Homework6_FacebookTask2 {
 
     public static void main(String[] args) throws InterruptedException {
 
