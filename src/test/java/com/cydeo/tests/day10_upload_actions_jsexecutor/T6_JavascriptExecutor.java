@@ -17,7 +17,10 @@ public class T6_JavascriptExecutor {
         //((JavascriptExecutor)Driver.getDriver()).executeScript("");
 
         //3- Use below JavaScript method and scroll
+        //downCasting our driver type
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+
+        //JavaScript method to use : window.scrollBy(0,0) ------  (x,y)
 
         //a. 750 pixels down 10 times.
         for (int i = 0; i < 10; i++) {
@@ -32,6 +35,6 @@ public class T6_JavascriptExecutor {
             js.executeScript("window.scrollBy(0,-750)");
         }
 
-        //JavaScript method to use : window.scrollBy(0,0)
+
     }
 }
